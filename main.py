@@ -14,7 +14,7 @@ class User(db.Model):
 
 app = Flask(__name__)
 db.create_all()
-
+#
 
 @app.route("/", methods=["GET"])
 def index():
